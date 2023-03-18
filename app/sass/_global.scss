@@ -32,7 +32,7 @@ h6 {
 
 
 a {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   color: inherit;
 }
@@ -93,6 +93,8 @@ body {
   background: $wh;
   display: flex;
   flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
 
 }
 
@@ -107,4 +109,11 @@ main {
   padding: 0 10px;
   max-width: 430px;
   margin: 0 auto;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-y: hidden;
 }

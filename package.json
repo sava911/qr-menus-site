@@ -1,22 +1,22 @@
 {
-  "name": "shophtmlsitemarco",
+  "name": "qr-menus-site",
   "version": "1.0.0",
   "description": "site shop html scss js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sava911/shopHtmlSiteMarco.git"
+    "url": "git+https://github.com/sava911/qr-menus-site.git"
   },
   "keywords": [],
   "author": "Sava911",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sava911/shopHtmlSiteMarco/issues"
+    "url": "https://github.com/sava911/qr-menus-site/issues"
   },
-  "homepage": "https://github.com/sava911/shopHtmlSiteMarco#readme",
+  "homepage": "https://sava911.github.io/qr-menus-site/",
   "devDependencies": {
     "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
@@ -26,5 +26,8 @@
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.6.1",
     "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

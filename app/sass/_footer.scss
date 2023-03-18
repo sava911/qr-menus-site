@@ -1,0 +1,126 @@
+.footer {
+  color: $wh;
+  background: $braun;
+
+
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+    a {
+      padding: 20px 25px;
+      position: relative;
+      border-radius: 5px;
+      position: relative;
+      border: 1px solid $yellow;
+
+    }
+
+
+  }
+
+
+
+
+
+  &__social-you {
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../images/icons/youtube.svg');
+      background-repeat: no-repeat;
+      background-size: 20px;
+      width: 20px;
+      height: 20px;
+      left: 15px;
+      top: 10px;
+    }
+  }
+
+  &__social-vk {
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../images/icons/rutube-2.png');
+      background-repeat: no-repeat;
+      background-size: 20px;
+      width: 20px;
+      height: 20px;
+      left: 15px;
+      top: 10px;
+    }
+  }
+
+  &__social-rut {
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../images/icons/vk.svg');
+      background-repeat: no-repeat;
+      background-size: 20px;
+      width: 20px;
+      height: 20px;
+      left: 15px;
+      top: 10px;
+    }
+  }
+
+  &__social-dz {
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../images/icons/zen.svg');
+      background-repeat: no-repeat;
+      background-size: 20px;
+      width: 20px;
+      height: 20px;
+      left: 15px;
+      top: 10px;
+    }
+  }
+
+  &__social-tg {
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../images/icons/telegram.svg');
+      background-repeat: no-repeat;
+      background-size: 20px;
+      width: 20px;
+      height: 20px;
+      left: 15px;
+      top: 10px;
+    }
+  }
+
+
+
+
+
+
+
+  &__bottom {
+
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    letter-spacing: 0.24rem;
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url('../images/icons/envelop.svg');
+      background-repeat: no-repeat;
+      background-size: 32px;
+      width: 30px;
+      height: 30px;
+      right: 5px;
+      top: 15px;
+    }
+  }
+}
